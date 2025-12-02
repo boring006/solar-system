@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Sun – Premium Exploration</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="sun.css" />
+  </head>
+
+  <body>
+    <!--navigation-->
+    <header>
+      <div class="logo-container">
+        <img
+          src="images and videos/logo-projet-re.png"
+          alt="logo"
+          height="50px"
+        />
+        <div class="logo">ASTRA</div>
+      </div>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Solar System">Solar System</a></li>
+        <li><a href="#space-wanderers">Space Wanderers</a></li>
+        <li><a href="#about-contact">About / Contact</a></li>
+      </ul>
+    </header>
+
+    <div class="stars" id="stars"></div>
+
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>The Sun</h1>
+          <p class="subtitle">The Living Heart of Our Solar System</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INFO SECTION ===== -->
+    <section class="info-grid">
+      <h2 class="section-title">About Our Star</h2>
+      <div class="info-card">
+        <h2>What is the Sun?</h2>
+        <p>
+          The Sun is a glowing sphere of plasma held together by its own
+          gravity. It generates energy through nuclear fusion in its core,
+          releasing light and heat that sustain life on Earth.
+        </p>
+      </div>
+    
+
+      <div class="info-card">
+        <h2>Composition</h2>
+        <p>The Sun is composed primarily of hydrogen (about 74% of its mass) and helium (about 24%), with heavier elements making up the remaining 2%.</p>
+      </div>
+
+      <div class="info-card">
+        <h2>Did You Know?</h2>
+        <p>
+          Light from the Sun takes only <strong>8 minutes</strong> to reach
+          Earth. The Sun contains <strong>99.8% of all mass</strong> in the
+          Solar System!
+        </p>
+      </div>
+      <div class="info-card">
+        <h2>Structure of the Sun</h2>
+        <p>The Sun is composed of several distinct layers:</p>
+        <ul>
+          <li><strong>Core :</strong> where nuclear fusion occurs, producing immense energy.</li>
+          <li><strong>Radiative Zone :</strong> energy slowly travels outward over thousands of years.</li>
+          <li><strong>Convective Zone :</strong> hot plasma rises and sinks, creating motion.</li>
+          <li><strong>Photosphere :</strong> the visible “surface” of the Sun.</li>
+          <li><strong>Chromosphere :</strong> a reddish layer seen during eclipses.</li>
+          <li><strong>Corona :</strong> the Sun’s outer atmosphere, hotter than the surface.</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h2>Energy & Fusion</h2>
+        <p>
+          Every second, the Sun fuses 600 million tons of hydrogen into helium.
+          This releases energy equivalent to billions of nuclear bombs.
+        </p>
+        <p>
+          This energy powers the Solar System, controls climates, and drives
+          every biological process on Earth.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h2>Solar Phenomena</h2>
+        <ul>
+          <li><strong>Sunspots :</strong> cooler, darker regions caused by magnetic activity.</li>
+          <li><strong>Solar Flares :</strong> explosive bursts of radiation.</li>
+          <li><strong>Coronal Mass Ejections :</strong> massive plasma eruptions.</li>
+          <li><strong>Solar Wind :</strong> high-speed particles that interact with Earth’s magnetic field, creating auroras.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Facts Section -->
+    <section class="info-section" id="facts">
+        <h2 class="section-title">Solar Facts</h2>
+        <div class="solar-stats">
+            <div class="stat">
+                <div class="stat-value">1.3M km</div>
+                <div class="stat-label">Diameter</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">4.5B yrs</div>
+                <div class="stat-label">Age</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">15M °C</div>
+                <div class="stat-label">Core Temperature</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">5,500 °C</div>
+                <div class="stat-label">Surface Temperature</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">8 min</div>
+                <div class="stat-label">Light to Earth</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">G2V</div>
+                <div class="stat-label">Spectral Type</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Timeline Section -->
+    <section class="info-section" id="timeline">
+        <h2 class="section-title">Solar Timeline</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>4.6 Billion Years Ago</h3>
+                    <p>The Sun forms from the gravitational collapse of a region within a large molecular cloud.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>4.5 Billion Years Ago</h3>
+                    <p>Nuclear fusion ignites in the Sun's core, marking the beginning of its main sequence phase.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Present Day</h3>
+                    <p>The Sun is about halfway through its main sequence lifetime, steadily fusing hydrogen into helium.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>5 Billion Years From Now</h3>
+                    <p>The Sun will exhaust the hydrogen in its core and begin to expand into a red giant.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ===== BACK BUTTON ===== -->
+    <div class="back-container" id="back-btn">
+      <a href="index.htm" class="back-btn">← Back to Home</a>
+    </div>
+
+    <!-- Footer -->
+    <footer id="about-contact" class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="logo">ASTRA</div>
+            <p class="footer-tagline">Exploring the Universe, One Planet at a Time</p>
+          </div>
+          
+          <div class="footer-links-grid">
+            <div class="footer-column">
+              <h3>Solar System</h3>
+              <ul>
+                <li><a href="sun.htm">Sun</a></li>
+                <li><a href="mercury.htm">Mercury</a></li>
+                <li><a href="venus.htm">Venus</a></li>
+                <li><a href="earth.htm">Earth</a></li>
+                <li><a href="mars.htm">Mars</a></li>
+                <li><a href="jupiter.htm">Jupiter</a></li>
+                <li><a href="saturn.htm">Saturn</a></li>
+                <li><a href="uranus.htm">Uranus</a></li>
+                <li><a href="neptune.htm">Neptune</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-column">
+              <h3>Space Wanderes</h3>
+              <ul>
+                <li><a href="#">Galaxies</a></li>
+                <li><a href="#">Black holes</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-column">
+              <h3>About ASTRA</h3>
+              <ul>
+                <li><a href="#team">Science Team</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <div class="social-links">
+            <a href="#" aria-label="Facebook" class="social-link">
+              <span>Facebook</span>
+            </a>
+            <a href="#" aria-label="Twitter" class="social-link">
+              <span>Twitter</span>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-link">
+              <span>Instagram</span>
+            </a>
+          </div>
+          
+          <div class="footer-legal">
+            <p>&copy; 2025 ASTRA Space Exploration. All rights reserved.</p>
+            <div class="legal-links">
+              <a href="#privacy">Privacy Policy</a>
+              <a href="#terms">Terms of Use</a>
+              <a href="#accessibility">Accessibility</a>
+              <a href="#sitemap">Site Map</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#back-btn" class="down-btn" title="Descendre en bas de page" >
+        ↓
+    </a>
+
+
+  <script>
+    
+        // Génération des étoiles en arrière-plan
+        function createStars() {
+            const starsContainer = document.getElementById("stars");
+            const starCount = 400;
+
+            for (let i = 0; i < starCount; i++) {
+                const star = document.createElement("div");
+                star.classList.add("star");
+
+                // Position aléatoire
+                const x = Math.random() * 100;
+                const y = Math.random() * 100;
+
+                // Taille aléatoire
+                const size = Math.random() * 3;
+
+                // Durée d'animation aléatoire
+                const duration = 3 + Math.random() * 7;
+
+                star.style.left = `${x}%`;
+                star.style.top = `${y}%`;
+                star.style.width = `${size}px`;
+                star.style.height = `${size}px`;
+                star.style.animationDuration = `${duration}s`;
+                star.style.animationDelay = `${Math.random() * 5}s`;
+
+                starsContainer.appendChild(star);
+            }
+        }
+
+        // Menu mobile
+        function toggleMenu() {
+            document.querySelector(".menu").classList.toggle("show");
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Appeler la fonction quand la page est chargée
+        document.addEventListener('DOMContentLoaded', function() {
+            createStars();
+        });
+    
+    const slidesTrack = document.querySelector('.slides-track');
+    const images = slidesTrack.querySelectorAll('img');
+    const totalImages = images.length;
+    let currentIndex = 0;
+
+    function moveSlide(direction) {
+      currentIndex += direction;
+      if (currentIndex < 0) {
+        currentIndex = totalImages - 1;
+      } else if (currentIndex >= totalImages) {
+        currentIndex = 0;
+      }
+      const slideWidth = images[0].clientWidth;
+      slidesTrack.style.transform = `translateX(${-slideWidth * currentIndex}px)`;
+    }
+    // Menu mobile
+        function toggleMenu() {
+            document.querySelector(".menu").classList.toggle("show");
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Appeler la fonction quand la page est chargée
+        document.addEventListener('DOMContentLoaded', function() {
+            createStars();
+        });
+  </script>
+  </body>
+</html>
